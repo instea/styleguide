@@ -1,3 +1,6 @@
 # Javascript Style Guide
 
-Code style and conventions in javascript is enforced by using eslint and prettier.
+We use eslint and prettier to keep javascript code consistent across the projects.
+Use following eslint plugins as a base for your eslint config:
+- [@instea/eslint-config-react](./eslint-config-react/)
+- [@instea/eslint-config-node](./eslint-config-node/)
