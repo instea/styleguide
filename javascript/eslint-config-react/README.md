@@ -15,7 +15,7 @@ yarn add --dev prettier eslint\
   eslint-plugin-jsx-a11y\
   eslint-plugin-flowtype
 
-yarn add --dev @instea/react
+yarn add --dev @instea/eslint-config-react
 ```
 
 ## Usage
