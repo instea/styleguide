@@ -5,14 +5,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/instea/styleguide.git#initial-styleguides"
+    "url": "git+https://github.com/instea/styleguide.git#main"
   },
   "author": "instea.sk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/instea/styleguide/issues"
   },
-  "homepage": "https://github.com/instea/styleguide/tree/initial-styleguides#readme",
+  "homepage": "https://github.com/instea/styleguide/tree/main#readme",
   "devDependencies": {
     "prettier": "^2.6.2"
   },
