@@ -5,15 +5,7 @@ Default ESLint rules for React projects.
 ## Installation
 
 ```
-yarn add --dev prettier eslint\
-  eslint-config-prettier\
-  eslint-config-react-app\
-  eslint-plugin-import\
-  eslint-plugin-prettier\
-  eslint-plugin-react\
-  eslint-plugin-react-hooks\
-  eslint-plugin-jsx-a11y\
-  eslint-plugin-flowtype
+yarn add --dev prettier eslint
 
 yarn add --dev @instea/eslint-config-react
 ```

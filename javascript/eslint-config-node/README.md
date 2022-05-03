@@ -5,11 +5,7 @@ Default ESLint rules for Node.js projects.
 ## Installation
 
 ```
-yarn add --dev prettier eslint\
-  eslint-config-prettier\
-  eslint-plugin-jest\
-  eslint-plugin-node\
-  eslint-plugin-prettier
+yarn add --dev prettier eslint
 
 yarn add --dev @instea/eslint-config-node
 ```

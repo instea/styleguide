@@ -16,12 +16,14 @@
   "devDependencies": {
     "prettier": "^2.6.2"
   },
-  "peerDependencies": {
-    "eslint": "^8.14.0",
+  "dependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^26.1.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.14.0",
     "prettier": "^2.6.2"
   }
 }
