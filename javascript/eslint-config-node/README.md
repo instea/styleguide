@@ -35,5 +35,5 @@ Create `.prettierrc` file with this content:
 Run eslint using yarn:
 
 ```
-yarn eslint .
+yarn eslint . --max-warnings 0
 ```

@@ -32,6 +32,7 @@ module.exports = {
       },
     ],
     "import/prefer-default-export": "off",
+    "import/no-cycle": "error",
     indent: "off",
     "jsx-a11y/anchor-is-valid": "off",
     "jsx-a11y/click-events-have-key-events": "off",
@@ -42,7 +43,7 @@ module.exports = {
     "no-plusplus": "off",
     "object-curly-newline": "off",
     "prefer-template": "error",
-    "prettier/prettier": "error",
+    "prettier/prettier": "warn",
     quotes: [
       "error",
       "single",

@@ -8,5 +8,5 @@
 - Optimize code for people first, beware of premature optimization
 - Use tools to enforce code style and good practices
 - Clean up unused code and don't design ahead
-- Keep documentation close to the code
+- Keep documentation close to the code. Best documentation is a good name
 - Stick to the best practices and follow proven software principles (KISS, SOLID, DRY, YAGNI, ...)

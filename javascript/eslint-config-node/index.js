@@ -35,7 +35,7 @@ module.exports = {
     indent: "off",
     "no-mixed-operators": "off",
     "no-plusplus": "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": "warn",
     "node/no-unpublished-require": "off",
     "global-require": "off",
   },
