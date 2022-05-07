@@ -11,14 +11,14 @@ module.exports = {
   plugins: ["prettier"],
   rules: {
     quotes: [
-      "error",
+      "warn",
       "single",
       {
         avoidEscape: true,
       },
     ],
     "comma-dangle": [
-      "error",
+      "warn",
       {
         arrays: "always-multiline",
         objects: "always-multiline",
@@ -30,7 +30,7 @@ module.exports = {
     "object-curly-newline": "off",
     "no-confusing-arrow": "off",
     "arrow-parens": "off",
-    "arrow-body-style": ["error", "as-needed"],
+    "arrow-body-style": ["warn", "as-needed"],
     "function-paren-newline": "off",
     indent: "off",
     "no-mixed-operators": "off",
