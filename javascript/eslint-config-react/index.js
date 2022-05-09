@@ -5,10 +5,10 @@ module.exports = {
   extends: ["plugin:prettier/recommended", "react-app"],
   plugins: ["prettier", "react-hooks", "import"],
   rules: {
-    "arrow-body-style": ["error", "as-needed"],
+    "arrow-body-style": ["warn", "as-needed"],
     "arrow-parens": "off",
     "comma-dangle": [
-      "error",
+      "warn",
       {
         arrays: "always-multiline",
         exports: "always-multiline",
@@ -22,7 +22,7 @@ module.exports = {
     "import/no-extraneous-dependencies": ["error"],
     "import/no-unresolved": "error",
     "import/order": [
-      "error",
+      "warn",
       {
         alphabetize: {
           order: "asc",
@@ -42,7 +42,7 @@ module.exports = {
     "no-mixed-operators": "off",
     "no-plusplus": "off",
     "object-curly-newline": "off",
-    "prefer-template": "error",
+    "prefer-template": "warn",
     "prettier/prettier": "warn",
     quotes: [
       "error",
@@ -76,7 +76,7 @@ module.exports = {
     ],
     "react/sort-comp": "off",
     "sort-imports": [
-      "error",
+      "warn",
       {
         ignoreDeclarationSort: true,
       },
