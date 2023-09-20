@@ -23,7 +23,7 @@
 
 ### CSS Modularity
 
-- Avoid using global styles and selectors
+- Avoid using global styles and selectors (unless there is a good reason for it, e.g. global variables for theming, utility classes)
 - Keep component's CSS by the component, e.g. using CSS modules
 
 ### Pre-processors, CSS in JS
@@ -36,9 +36,18 @@
 - Prefer *flexbox* and *grid* over *floats* and *tables*
 - Write mobile-first *media-queries*
 
+### Accessibility
+
+- Prefer using relative units like **(r)em**, percentiles, etc. over pixels, especially when defining font size
+
 ### `!important`
 
 - Use this CSS feature only as a last resort (e.g., forcing external styles when there's no other workaround)
+
+### Cross-browser compatibility
+
+- When using newer CSS features check if it is supported in all desired browsers including mobile ones
+- Either test it directly or use tools like [https://caniuse.com/](https://caniuse.com/)
 
 ### Dead Code
 
