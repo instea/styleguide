@@ -31,3 +31,11 @@ useEffect(() => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
 }, [id]);
 ```
+
+## Other Guidelines
+
+### Cross-browser compatibility
+
+- When using newer JS features check if it is supported in all desired browsers including mobile ones
+- Either test it directly or use tools like [https://caniuse.com/](https://caniuse.com/)
+- Include polyfills if there are chances for such issues

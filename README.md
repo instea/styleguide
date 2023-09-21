@@ -7,6 +7,7 @@ It also contains tools that help to enforce consistent code style.
 
 - [General](./general/)
 - [Javascript](./javascript/)
+- [CSS](./css/)
 
 ## Contributing
 
