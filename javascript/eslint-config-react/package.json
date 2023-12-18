@@ -14,18 +14,18 @@
   },
   "homepage": "https://github.com/instea/styleguide/tree/main#readme",
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "prettier": "^3.1.1"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-config-react-app": "^7.0.1",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.5.0"
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
-    "prettier": "^2.6.2",
-    "eslint": "^8.14.0"
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1"
   }
 }
