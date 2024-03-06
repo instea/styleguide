@@ -10,3 +10,12 @@
 - Clean up unused code and don't design ahead
 - Keep documentation close to the code. Best documentation is a good name
 - Stick to the best practices and follow proven software principles (KISS, SOLID, DRY, YAGNI, ...)
+
+## SonarCloud
+
+It is encouraged to set up and use [SonarCloud](https://sonarcloud.io) code checker on projects.
+
+- Begin with the default Sonar rules that should be followed in most cases
+- If there is a good reason, disable rules after agreement with the team
+- Prefer strict Quality Gateway - zero new issues added
+- Integrate Sonar as a quality step in the CI pipeline - e.g. run it on Pull Request
