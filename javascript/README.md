@@ -32,6 +32,33 @@ useEffect(() => {
 }, [id]);
 ```
 
+### React conditional rendering
+
+Idiomatic React conditional rendering is preferred over custom properties that do not have another purpose
+
+```jsx
+// Good
+<>{ condition && <Field .... /> }</>
+
+// Bad
+<Field visible={condition} ... />
+```
+
+### Use of hooks
+
+#### useCallback
+
+`useCallback` should not be used by default but only when there is a need for it, for instance:
+
+- the rerendering of a component was identified as a performance bottleneck
+- it's a result of a reusable hook
+- there is a semantic need (for example if useEffect shouldn't be called on every render)
+
+#### useEffect
+
+- by default all the dependencies should be listed
+- if appropriate, it may be used with only "listen to change" dependencies, but it has to be carefully considered and documented why
+
 ## Other Guidelines
 
 ### Cross-browser compatibility
