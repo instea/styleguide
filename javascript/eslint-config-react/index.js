@@ -2,8 +2,8 @@ module.exports = {
   env: {
     browser: true,
   },
-  extends: ["plugin:prettier/recommended", "react-app"],
-  plugins: ["prettier", "react-hooks", "import"],
+  extends: ["plugin:prettier/recommended", "plugin:react/recommended"],
+  plugins: ["prettier", "react-hooks", "import", "jest"],
   rules: {
     "arrow-body-style": ["warn", "as-needed"],
     "arrow-parens": "off",
